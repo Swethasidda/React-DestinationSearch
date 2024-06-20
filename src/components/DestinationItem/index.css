@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+.para {
+  color: #252627;
+  font-family: 'roboto';
+  font-size: 12px;
+  text-align: start;
+}

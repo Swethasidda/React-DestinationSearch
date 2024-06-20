@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.big-container {
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #000000;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+.small-container {
+  background-color: #f1f5f9;
+  padding: 2px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  background-color: transparent;
+  border-radius: 5px;
+}
+.image {
+  height: 10px;
+  width: 10px;
+}
+.Destination-Item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
