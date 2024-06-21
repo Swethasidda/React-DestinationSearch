@@ -17,7 +17,7 @@ class DestinationSearch extends Component {
     const lower = searchInput.toLocaleLowerCase()
 
     const searchResults = destinationsList.filter(eachUser =>
-      eachUser.name.includes(lower),
+      eachUser.name.toLocaleLowerCase().includes(lower),
     )
     return (
       <div className="big-container">
